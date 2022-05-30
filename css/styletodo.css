@@ -1,0 +1,85 @@
+#deco{
+    background-color: white;
+}
+
+#deco2{
+    margin: 1em;
+    margin-top: 0;
+    padding: 1em;
+}
+
+.header{
+    margin : 0 auto;
+    background-color : #5ca093;
+    height : 60px;
+}
+ 
+.header_titre {
+    color : white;
+    text-align : center;
+    font-size : 28px;
+    margin-top: 1em;
+}
+
+#back{
+    background-color: #5ca093;
+}
+
+body {
+    margin : 0;
+    background-color: #5ca093;
+}
+ 
+.taches_input {
+    width : 600px;
+    margin : 0 auto;
+    display : grid;
+    grid-template-columns:  8fr 2fr;
+}
+ 
+#inserer {
+    height : 45px;
+}
+ 
+#envoyer {
+    background-color : #e7353c;
+    height : 45px;
+}
+ 
+ 
+.taches {
+    width : 600px;
+    border: 1px solid white;
+    margin : 0 auto;
+    margin-top : 30px;
+    border-collapse : collapse;
+    color: white;
+}
+ 
+tbody{
+    background-color: #e7353c;
+}
+
+th {
+    border: 1px solid white;
+    padding : 10px;
+}
+ 
+td {
+    border : 1px solid white;
+    text-align : center;
+    padding : 10px;
+    background-color: white;
+    color: #5ca093;
+}
+ 
+.suppr {
+    color : #e7353c;
+    text-decoration : none;
+ 
+}
+ 
+.suppr:hover {
+    color : red;
+    text-decoration : none;
+}
